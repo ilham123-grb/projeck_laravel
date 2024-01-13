@@ -41,6 +41,7 @@ Route::get('/admin/transaksi/datapaket', 'TransaksiController@datapaket')->name(
 Route::get('/transaksi',[TransaksiController::class,'index'])->name('transaksi');
 Route::get('/tambahpegawai',[TransaksiController::class, 'tambahpegawai'])->name('tambahpegawai');
 Route::post('/insertdata',[TransaksiController::class, 'insertdata'])->name('inserdata');
+Route::get('/delete/{id}',[TransaksiController::class, 'delete'])->name('delete');
 
 //Artikel
 Route::get('/artikel',[ArtikelController::class,'index'])->name('artikel');

@@ -30,6 +30,14 @@
 
                               </div>
                               <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Jenis Kelamin</label>
+                                <select class="form-selec form-select-lg mb-3" name="jenis" aria-label=".form-select-lg example">
+                                    <option selected>Pilih Jenis Kelmain</option>
+                                    <option value="1">laki-laki</option>
+                                    <option value="2">perempuan</option>
+                                </select>
+                              </div>
+                              <div class="mb-3">
                                 <label for="exampleInputEmail1" class="form-label">Paket</label>
                                 <select class="form-selec form-select-lg mb-3" name="paket" aria-label=".form-select-lg example">
                                     <option selected>Pilih Paket</option>
@@ -37,7 +45,6 @@
                                     <option value="2">paket menengah</option>
                                     <option value="3">paket profesional</option>
                                 </select>
-
                               </div>
                               <div class="mb-3">
                                 <label for="exampleInputEmail1" class="form-label">Rupiah</label>

@@ -21,4 +21,9 @@ class TransaksiController extends Controller
     return redirect()->route('home');
 
  }
+ public function delete($id){
+    $data = Transaksi::find($id);
+    $data->delete();
+    return redirect()->route('admin.transaksi.datapaket');
+   }
 }

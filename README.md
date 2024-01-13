@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ## LARASCHOOL V 1.0.0
 <p><b>
 LARASCHOOL adalah aplikasi website sekolah dibuat dengan framework laravel 8.
@@ -41,6 +40,3 @@ Password : password
 
 ## Author
 - Rahmat Hidayatullah
-=======
-# projek-laravel
->>>>>>> 36ff860e9cc0ed6d1c7e84293208e566744d13f1

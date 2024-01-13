@@ -31,7 +31,7 @@
                     <th scope="row">{{ $row->id }}</th>
 
                     <td>{{ $row ->name }}</td>
-                    <td>{{ $row ->jeniskelamin }}</td>
+                    <td>{{ $row ->jenis }}</td>
                     <td>{{ $row ->email }}</td>
                     <td>{{ $row ->paket }}</td>
                     <td>{{ $row ->harga }}</td>
